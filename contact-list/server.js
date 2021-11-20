@@ -5,7 +5,11 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost/contactlist');
+mongoose.connect('mongodb://localhost/contactlist', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true
+});
 
 mongoose.connection.once('open', () => {
   console.log('DB connection has been made');

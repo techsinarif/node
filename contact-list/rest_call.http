@@ -4,8 +4,8 @@ content-type: application/json
 
 {
   "name": "Arif Yakoob",
-  "emailId": "arif3@gmail.com",
-  "phoneNumber": 9834565432
+  "emailId": "arif2@gmail.com",
+  "phoneNumber": 98134565431
 }
 
 ### Get all the users
@@ -13,7 +13,7 @@ GET http://localhost:8080/api/contact/all
 content-type: application/json
 
 ### Update the contact details
-PUT http://localhost:8080/api/contact/update/61980fd84ccf3df36ad017c5
+PUT http://localhost:8080/api/contact/update/6198ce70c290c312780f228f
 Content-Type: application/json
 
 {
@@ -23,5 +23,5 @@ Content-Type: application/json
 }
 
 ### Delete the contact details
-DELETE http://localhost:8080/api/contact/delete/61986b8abf8577c1f43806aa
+DELETE http://localhost:8080/api/contact/delete/6198ce9ec290c312780f2294
 Content-Type: application/json
