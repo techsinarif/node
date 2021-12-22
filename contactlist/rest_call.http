@@ -1,0 +1,24 @@
+### Adding the data to Database.
+
+POST http://localhost:8080/api/contacts/add
+Content-Type: application/json
+
+{
+  "name": "Techs'n Arif",
+  "emailId": "techsinarif2@gmail.com",
+  "phoneNumber": 987543215
+}
+
+### Read the data from DB
+GET http://localhost:8080/api/contacts/all
+Content-Type: application/json
+
+### Update the data
+PUT http://localhost:8080/api/contacts/update/619a2f9107f4c11b4041011b
+Content-Type: application/json
+
+{
+  "name": "Arif Yakoob",
+  "emailId": "techsinarif2@gmail.com_updated",
+  "phoneNumber": 5555555555
+}
